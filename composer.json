@@ -1,0 +1,31 @@
+{
+  "name": "mawoscha/german-localepack-it-it",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Italian (Italy) Community Translation",
+  "authors":[
+    {
+      "name":"MaWoScha"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "map": [
+      ["./app/code/community/German/LocalePackIt", "./app/code/community/German/LocalePackIt"],
+      ["./app/etc/modules/German_LocalePackIt.xml", "./app/etc/modules/German_LocalePackIt.xml"],
+      ["./app/locale/de_DE/German_LocaleIt.csv", "./app/locale/de_DE/German_LocaleIt.csv"],
+      ["./app/locale/en_US/German_LocaleIt.csv", "./app/locale/en_US/German_LocaleIt.csv"],
+      ["./app/locale/es_ES/German_LocaleIt.csv", "./app/locale/es_ES/German_LocaleIt.csv"],
+      ["./app/locale/fr_FR/German_LocaleIt.csv", "./app/locale/fr_FR/German_LocaleIt.csv"],
+      ["./app/locale/it_IT/German_LocaleIt.csv", "./app/locale/it_IT/German_LocaleIt.csv"],
+      ["./app/locale/pt_PT/German_LocaleIt.csv", "./app/locale/pt_PT/German_LocaleIt.csv"]
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}

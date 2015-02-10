@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackIt>
+            <version>0.1.0</version>
+            <locale>it_IT</locale>
+            <title>Italian (Italia) Language Pack</title>
+            <link_git>https://github.com/MaWoScha/German_LocalePack_it_IT</link_git>
+            <link_mage>http://www.magentocommerce.com/magento-connect/italian-italia-language-pack.html</link_mage>
+            <mage_key>http://connect20.magentocommerce.com/community/Locale_Mage_community_it_IT</mage_key>
+        </German_LocalePackIt>
+    </modules>
+
+    <global>
+        <models>
+            <localepackit>
+                <class>German_LocalePackIt_Model</class>
+            </localepackit>
+        </models>
+        <helpers>
+            <localepackit>
+                <class>German_LocalePackIt_Helper</class>
+            </localepackit>
+        </helpers>
+        <blocks>
+            <localepackit>
+                <class>German_LocalePackIt_Block</class>
+            </localepackit>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackit>
+                        <class>localepackit/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackit>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+	
+    <default>
+        <localepackit>
+             <notification>
+                <url>https://github.com/MaWoScha/German_LocalePack_de_DE</url>
+            </notification>
+        </localepackit>
+        <magesetup>
+            <default_country>IT</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <German_LocalePackIt>
+                    <files>
+                        <default>German_LocaleIt.csv</default>
+                    </files>
+                </German_LocalePackIt>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackit">
+                                            <title>Language Packs</title>
+                                    		<children> -->
+                                        		<localepackit translate="title" module="localepackit">
+                                            		<title>Italian (Italia) Language Pack</title>
+                                        		</localepackit> <!--
+                                    		</children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>
