@@ -17,6 +17,8 @@
     "map": [
       ["./app/code/community/German/LocalePackIt", "./app/code/community/German/LocalePackIt"],
       ["./app/etc/modules/German_LocalePackIt.xml", "./app/etc/modules/German_LocalePackIt.xml"],
+      ["./downloader/template_it_1.5", "./downloader/template_it_1.5"],
+      ["./downloader/template_it_1.7", "./downloader/template_it_1.7"],
       ["./app/locale/de_DE/German_LocaleIt.csv", "./app/locale/de_DE/German_LocaleIt.csv"],
       ["./app/locale/en_US/German_LocaleIt.csv", "./app/locale/en_US/German_LocaleIt.csv"],
       ["./app/locale/es_ES/German_LocaleIt.csv", "./app/locale/es_ES/German_LocaleIt.csv"],
