@@ -13,7 +13,7 @@ Italian language pack for Magento Commerce
 Italienisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.2.0</version>
+   <version>0.3.0</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -62,8 +62,27 @@ Italienisches Sprachpaket für Magento Commerce</description>
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
          <target>mage</target>
          <target>mage</target>
          <target>magelocale</target>
@@ -75,10 +94,29 @@ Italienisches Sprachpaket für Magento Commerce</description>
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/layout/localepackit.xml</path>
          <path>German/LocalePackIt</path>
          <path>modules/German_LocalePackIt.xml</path>
          <path>downloader/template_it_1.5</path>
          <path>downloader/template_it_1.7</path>
+         <path>js/german/localepackit/setup.js</path>
+         <path>js/tiny_mce/langs/it.js</path>
+         <path>js/tiny_mce/plugins/advhr/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/advimage/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/advlink/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/autosave/langs/it.js</path>
+         <path>js/tiny_mce/plugins/emotions/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/fullpage/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/media/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/paste/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/searchreplace/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/style/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/table/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/template/langs/it_dlg.js</path>
+         <path>js/tiny_mce/plugins/xhtmlxtras/langs/it_dlg.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/it.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/it_dlg.js</path>
+         <path>js/tiny_mce/themes/simple/langs/it.js</path>
          <path>de_DE/German_LocaleIt.csv</path>
          <path>en_US/German_LocaleIt.csv</path>
          <path>es_ES/German_LocaleIt.csv</path>
@@ -88,10 +126,29 @@ Italienisches Sprachpaket für Magento Commerce</description>
       </path>
       <type>
          <type>file</type>
+         <type>file</type>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -111,9 +168,47 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
