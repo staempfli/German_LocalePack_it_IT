@@ -13,7 +13,7 @@ Italian language pack for Magento Commerce
 Italienisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.3.0</version>
+   <version>0.4.0</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -91,6 +91,7 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
+         <target>magelocale</target>
       </target>
       <path>
          <path/>
@@ -117,6 +118,7 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <path>js/tiny_mce/themes/advanced/langs/it.js</path>
          <path>js/tiny_mce/themes/advanced/langs/it_dlg.js</path>
          <path>js/tiny_mce/themes/simple/langs/it.js</path>
+         <path>it_IT/template</path>
          <path>de_DE/German_LocaleIt.csv</path>
          <path>en_US/German_LocaleIt.csv</path>
          <path>es_ES/German_LocaleIt.csv</path>
@@ -149,6 +151,7 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <type>file</type>
          <type>file</type>
          <type>file</type>
+         <type>dir</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -187,9 +190,11 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
