@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackIt>
-            <version>0.5.0</version>
+            <version>0.6.0</version>
             <locale>it_IT</locale>
             <title>Italian (Italia) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_it_IT</link_git>
@@ -46,6 +46,16 @@
                 </observers>
             </adminhtml_controller_action_predispatch_start>
         </events>
+        <resources>
+            <localepackit_setup>
+                <setup>
+                    <module>German_LocalePackIt</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </localepackit_setup>
+        </resources>
     </global>
 	
     <default>
