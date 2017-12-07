@@ -25,7 +25,7 @@
         <td class="email-heading">
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}}</h1>
             <p>Grazie per il suo ordine a {{var store.getFrontendName()}}.</p>
-            <p>Puoi controllare lo stato del suo ordine <a href="{{store url="customer/account/"}}"">loggandoti nel suo account</a>.</p>
+
         </td>
         <td class="store-info">
 {{template config_path="design/email/support"}}

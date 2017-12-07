@@ -46,7 +46,7 @@ class German_LocalePackIt_Block_System_Config_Form_Fieldset_Instructions
         $html .= $helper->__("In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!");
         $html .= "</p>";
         $html .= "<p style='text-align:right;'>";
-        $html .= $helper->__("powered by")." <a href='http://antoniocarboni.com/' target='_blank'>Antonio Carboni</a> ".$helper->__("and")." <a href='http://blog.siempro.co/' target='_blank'>MaWoScha</a>";
+        $html .= $helper->__("powered by")." <a href='https://github.com/antoniocarboni/magento1_traduzione_italiana' target='_blank'>Antonio Carboni</a> ".$helper->__("and")." <a href='https://github.com/MaWoScha/German_LocalePack_it_IT' target='_blank'>MaWoScha</a>";
         $html .= "</p>";
         $html .= $this->_getFooterHtml($element);
 
