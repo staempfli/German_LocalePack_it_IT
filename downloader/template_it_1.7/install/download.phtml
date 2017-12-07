@@ -20,7 +20,7 @@
  *
  * @category    design
  * @package     default
- * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
@@ -62,17 +62,17 @@
                     <td class="label">Estabilidad versión Magento:</td>
                     <td class="value">
                         <select id="preferred_state" name="preferred_state">
-                            <option value="stable" <?php if ($this->get('preferred_state') == 'stable'):?>selected="selected"<?php endif ?>>estable</option>
+                            <option value="stable" <?php if ($this->get('preferred_state') == 'stable'):?>selected="selected"<?php endif ?>>stabile</option>
                             <option value="beta" <?php if ($this->get('preferred_state') == 'beta'):?>selected="selected"<?php endif ?>>beta</option>
                             <option value="alpha" <?php if ($this->get('preferred_state') == 'alpha'):?>selected="selected"<?php endif ?>>alfa</option>
                         </select>
                     </td>
                 </tr>
                 <tr>
-                    <td class="label">Utilice permisos personalizados:</td>
+                    <td class="label">Usa permessi personalizzati:</td>
                     <td class="value">
                         <select onchange="togglePanel(this)" id="use_custom_permissions_mode" name="use_custom_permissions_mode">
-                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Sí</option>
+                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Si</option>
                             <option value="0" <?php if ($this->get('use_custom_permissions_mode')=='0'):?>selected="selected"<?php endif ?>>No</option>
                         </select>
                     </td>
@@ -104,6 +104,14 @@
                 </tr>
             </table>
             <table cellspacing="0" cellpadding="0" class="form-list" id="inst_protocol_panel">
+                <tr>
+                    <td colspan="2">
+                        <div class="notice-msg">
+                            N'oubliez pas: tout le fichier .htaccess sera ignoré si vous utilisez FTP pour le téléchargement.
+                        </div>
+                    </td>
+                </tr>
+
                 <tr>
                     <td class="label">Servidor/Host:</td>
                     <td class="value">

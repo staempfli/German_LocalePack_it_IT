@@ -5,6 +5,12 @@
   "description":"Italian (Italy) Community Translation",
   "authors":[
     {
+      "name":"Antonio Carboni"
+    },
+    {
+      "name":"Martino Fenu"
+    },
+    {
       "name":"MaWoScha"
     }
   ],
@@ -81,9 +87,9 @@
       ["./app/locale/it_IT/template/email/sales/shipment_update_guest.html", "./app/locale/it_IT/template/email/sales/shipment_update_guest.html"],
       ["./app/locale/it_IT/template/email/sales/shipment_update.html", "./app/locale/it_IT/template/email/sales/shipment_update.html"],
       ["./app/locale/it_IT/template/email/html", "./app/locale/it_IT/template/email/html"],
-      ["./app/locale/it_IT/template/email/html/call_us.html", "./app/locale/it_IT/template/email/html/call_us.html"],
       ["./app/locale/it_IT/template/email/html/footer.html", "./app/locale/it_IT/template/email/html/footer.html"],
       ["./app/locale/it_IT/template/email/html/header.html", "./app/locale/it_IT/template/email/html/header.html"],
+      ["./app/locale/it_IT/template/email/html/support.html", "./app/locale/it_IT/template/email/html/support.html"],
       ["./app/locale/de_DE/German_LocaleIt.csv", "./app/locale/de_DE/German_LocaleIt.csv"],
       ["./app/locale/en_US/German_LocaleIt.csv", "./app/locale/en_US/German_LocaleIt.csv"],
       ["./app/locale/es_ES/German_LocaleIt.csv", "./app/locale/es_ES/German_LocaleIt.csv"],

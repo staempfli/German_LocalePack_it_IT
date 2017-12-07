@@ -78,7 +78,7 @@ function changeDeploymentType (element)
                     <td class="label">Estado preferido:</td>
                     <td class="value">
                         <select id="preferred_state" name="preferred_state">
-                            <option value="stable" <?php if ($this->get('preferred_state')=='stable'):?>selected="selected"<?php endif ?>>Estable</option>
+                            <option value="stable" <?php if ($this->get('preferred_state')=='stable'):?>selected="selected"<?php endif ?>>Stabile</option>
                             <option value="beta" <?php if ($this->get('preferred_state')=='beta'):?>selected="selected"<?php endif ?>>Beta</option>
                             <option value="alpha" <?php if ($this->get('preferred_state')=='alpha'):?>selected="selected"<?php endif ?>>Alfa</option>
                         </select>
@@ -94,10 +94,10 @@ function changeDeploymentType (element)
             <p><strong>Permisos de escritura para la creación de nuevos archivos y carpetas.</strong></p>
             <table cellspacing="0" class="form-list">
                 <tr>
-                    <td class="label">Use propios permisos de escritura:</td>
+                    <td class="label">Usa le proprie autorizzazioni di scrittura:</td>
                     <td class="value">
                         <select onchange="useCustomPermissions(this)" id="use_custom_permissions_mode" name="use_custom_permissions_mode">
-                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Sí</option>
+                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Si</option>
                             <option value="0" <?php if ($this->get('use_custom_permissions_mode')=='0'):?>selected="selected"<?php endif ?>>No</option>
                         </select>
                     </td>

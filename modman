@@ -42,6 +42,12 @@ app/locale/pt_PT/German_LocaleIt.csv app/locale/pt_PT/German_LocaleIt.csv
 
 
 #Adminhtml und Default Theme
+app/design/adminhtml/default/default/locale/it_IT/translate.csv     app/design/adminhtml/default/default/locale/it_IT/translate.csv
+app/design/frontend/default/blank/locale/it_IT/translate.csv        app/design/frontend/default/blank/locale/it_IT/translate.csv
+app/design/frontend/default/default/locale/it_IT/translate.csv      app/design/frontend/default/default/locale/it_IT/translate.csv
+app/design/frontend/default/iphone/locale/it_IT/translate.csv       app/design/frontend/default/iphone/locale/it_IT/translate.csv
+app/design/frontend/default/modern/locale/it_IT/translate.csv       app/design/frontend/default/modern/locale/it_IT/translate.csv
+app/design/frontend/rwd/default/locale/it_IT/translate.csv          app/design/frontend/rwd/default/locale/it_IT/translate.csv
 
 #CoreTranslation
 
@@ -71,9 +77,9 @@ app/locale/it_IT/template/email/token.html app/locale/it_IT/template/email/token
 app/locale/it_IT/template/email/wishlist_share.html app/locale/it_IT/template/email/wishlist_share.html
 
 #Email subtemplates
-app/locale/it_IT/template/email/html/call_us.html app/locale/it_IT/template/email/html/call_us.html
 app/locale/it_IT/template/email/html/footer.html app/locale/it_IT/template/email/html/footer.html
 app/locale/it_IT/template/email/html/header.html app/locale/it_IT/template/email/html/header.html
+app/locale/it_IT/template/email/html/support.html app/locale/it_IT/template/email/html/support.html
 
 #Email Sales Templates
 app/locale/it_IT/template/email/sales/creditmemo_new_guest.html app/locale/it_IT/template/email/sales/creditmemo_new_guest.html

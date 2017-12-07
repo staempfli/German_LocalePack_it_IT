@@ -1,4 +1,4 @@
-<!--@subject Account confirmation for {{var customer.name}} @-->
+<!--@subject Conferma Account per {{var customer.name}} @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
@@ -20,13 +20,13 @@
     <tr>
 		<td class="action-content">
 			<h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}},</h1>
-			<p>Your email {{var customer.email}} must be confirmed before using it to log in to our store.</p>
+			<p>La sua email {{var customer.email}} deve essere confermata prima di essere utilizzata per l'accesso al nostro negozio.</p>
 			<p class="highlighted-text">
-				Use the following values when prompted to log in:<br/>
+				Utilizza i seguenti parametri quando devi effettuare l'accesso:<br/>
 				<strong>Email:</strong> {{var customer.email}}<br/>
 				<strong>Password:</strong> {{htmlescape var=$customer.password}}
 			</p>
-			<p>Click here to confirm your email and instantly log in (the link is valid only once):</p>
+			<p>Clicca qui per confermare l'account e fare subito il login (il link sarà valido una sola volta):</p>
 			<table cellspacing="0" cellpadding="0" class="action-button" >
 				<tr>
 					<td>

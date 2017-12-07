@@ -1,4 +1,4 @@
-<!--@subject {{var store.getFrontendName()}}: Shipment # {{var shipment.increment_id}} update @-->
+<!--@subject {{var store.getFrontendName()}}: Spedizione # {{var shipment.increment_id}} aggiornata @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
@@ -19,7 +19,7 @@
     <tr>
         <td class="action-content">
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$billing.getName()}},</h1>
-            <p>Your order <span class="no-link">#{{var order.increment_id}}</span> has been updated to: <strong>{{var order.getStatusLabel()}}</strong></p>
+            <p>Il suo ordine <span class="no-link">#{{var order.increment_id}}</span> è stato aggiornato in: <strong>{{var order.getStatusLabel()}}</strong></p>
             {{if comment}}
             <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
@@ -27,7 +27,7 @@
                 </tr>
             </table>
             {{/if}}
-            <p>You can check the status of your order by <a href="{{store url="customer/account/"}}">logging into your account</a>.</p>
+
             <p>
                 {{block type="cms/block" block_id="email_template_contact"}}
             </p>

@@ -1,4 +1,4 @@
-<!--@subject Welcome, {{var name}} @-->
+<!--@subject Salve, {{var name}} @-->
 <!--@vars
 {"htmlescape var=$name":"Recipient Name",
 "var customerName":"Customer Name",
@@ -18,10 +18,10 @@
     <tr>
         <td class="action-content">
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{var=$customerName}}</h1>
-            <p>Your friend wants to share this product with you: <a href="{{var product_url}}">{{var product_name}}</a></p>
+            <p>Un suo amico vuole condividere questo prodotto con sue: <a href="{{var product_url}}">{{var product_name}}</a></p>
             <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
-                    <td><strong>Message:</strong> {{var message}}</td>
+                    <td><strong>Messaggio:</strong> {{var message}}</td>
                 </tr>
             </table>
         </td>

@@ -59,10 +59,10 @@
                 </tr>
               <?php echo($this->get('channel_protocol_fields')); ?>
                 <tr>
-                    <td class="label">Utilice permisos personalizados:</td>
+                    <td class="label">Usa permessi personalizzati:</td>
                     <td class="value">
                         <select onchange="togglePanel(this)" id="use_custom_permissions_mode" name="use_custom_permissions_mode">
-                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Sí</option>
+                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Si</option>
                             <option value="0" <?php if ($this->get('use_custom_permissions_mode')=='0'):?>selected="selected"<?php endif ?>>No</option>
                         </select>
                     </td>
@@ -72,13 +72,13 @@
                 <tr>
                     <td class="label">Carpetas:</td>
                     <td class="value">
-                        <input id="mkdir_mode" name="mkdir_mode" value="<?php echo($this->get('mkdir_mode'));?>" type="text" class="input-text"></input>
+                        <input id="mkdir_mode" name="mkdir_mode" value="<?php echo($this->get('mkdir_mode'));?>" type="text" class="input-text"/>
                     </td>
                 </tr>
                 <tr>
                     <td class="label">Archivos:</td>
                     <td class="value">
-                        <input id="chmod_file_mode" name="chmod_file_mode" value="<?php echo($this->get('chmod_file_mode'));?>" type="text" class="input-text"></input>
+                        <input id="chmod_file_mode" name="chmod_file_mode" value="<?php echo($this->get('chmod_file_mode'));?>" type="text" class="input-text"/>
                     </td>
                 </tr>
             </table>
