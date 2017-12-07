@@ -13,7 +13,7 @@ Italian language pack for Magento Commerce
 Italienisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.6.2</version>
+   <version>0.6.3</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -168,6 +168,8 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
       </target>
       <path>
          <path/>
@@ -202,6 +204,7 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <path>js/tiny_mce/themes/simple/langs/it.js</path>
          <path>it_IT/Mage_Adminhtml.csv</path>
          <path>it_IT/Mage_AdminNotification.csv</path>
+         <path>it_IT/Mage_AmazonPayments.csv</path>
          <path>it_IT/Mage_Api.csv</path>
          <path>it_IT/Mage_Api2.csv</path>
          <path>it_IT/Mage_Authorizenet.csv</path>
@@ -216,6 +219,7 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <path>it_IT/Mage_Checkout.csv</path>
          <path>it_IT/Mage_Cms.csv</path>
          <path>it_IT/Mage_Compiler.csv</path>
+         <path>it_IT/Mage_ConfigurableSwatches.csv</path>
          <path>it_IT/Mage_Connect.csv</path>
          <path>it_IT/Mage_Contacts.csv</path>
          <path>it_IT/Mage_Core.csv</path>
@@ -285,6 +289,8 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -477,9 +483,13 @@ Italienisches Sprachpaket für Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
