@@ -1,6 +1,8 @@
 "<a href=""%s"" target=""_blank"">Link</a>","<a href=""%s"" target=""_blank"">Link</a>"
 "Access denied to destination folder ""%s"".","Accesso negato per la cartella di destinazione ""%s""."
 "An error occurred while opening file: ""%s"".","Errore nell\'apertura file: ""%s""."
+"Backend name ""Static"" not supported.","Nome back-end ""Static"" non supportato.","en_US_1.9.3.7"
+"Backend name Static"" not supported.""","Nome back-end ""Static"" non supportato.","en_US_1.9.3.7"
 "Could not load file: ""%s"".","Impossibile caricare file: ""%s""."
 "Could not save file: %s.","Impossibile caricare file: %s."
 "Declared adapter %s was not found.","Adattatore dichiarato %s non trovato."

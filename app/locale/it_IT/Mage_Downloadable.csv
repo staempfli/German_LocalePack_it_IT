@@ -51,7 +51,7 @@
 "Ordered","Ordinato"
 "Out of stock","Non disponibile"
 "Pending","In attesa"
-"Please log in to download your product or purchase <a href=""""%s"""">%s</a>.","Accedi per scaricare il tuo prodotto o per acquistarlo."
+"Please log in to download your product or purchase <a href=""%s"">%s</a>.","Accedi per scaricare il tuo prodotto <a href=""%s"">%s</a> o per acquistarlo."
 "Please log in to download your product.","Accedi al download del prodotto."
 "Please set resource file and link type.","Imposta risorsa del file e tipo di link."
 "Please specify product link(s).","Specifica link prodotto"
@@ -93,4 +93,3 @@
 "download","download"
 "inline","in coda"
 "sample","Esempio"
-"Available","Disponibile"

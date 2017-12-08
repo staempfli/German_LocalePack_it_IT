@@ -1,6 +1,6 @@
 "%s %s cycle.","%s %s ciclo."
 "* Required Fields","* Campi obbligatori"
---Please Select--,--Selezionare--
+"--Please Select--","--Selezionare--"
 "3D Secure Card Validation","3D Secure Validazione Carta"
 "3D Secure Credit Card Validation","3D Secure Validazione Carta di Credito"
 "<label>Make Check payable to:</label> %s","<label>Rendere l\'assegno pagabile a:</label> %s"
@@ -140,10 +140,3 @@ Sort Order,Ordinamento
 "Wrong or empty billing amount specified.","Totale fatturazione specificato incorretto o vuoto."
 "Year","Anno"
 "Zero Subtotal Checkout","Subtotale Zero Checkout"
-"Basic Settings - PayPal Website Payments Standard","Impostazioni di base - PayPal Website Payments Standard"
-"Payment Applicable From","Pagamento applicabile per"
-"Settlement Report Settings","Impostazioni Report Accordo"
-"By default it is ""/ppreports/outgoing"".","Di default è ""/ppreports/outgoing""."
-"Allow in Billing Agreement Wizard","Consenti  nel Wizard Accordo di Fatturazione"
-"PayPal Billing Agreement Settings","Impostazioni accordo di fatturazione PayPal"
-"Website Payments Standard","Pagamenti standard nel sito"
