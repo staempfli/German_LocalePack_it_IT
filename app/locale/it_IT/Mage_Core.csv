@@ -2,6 +2,10 @@
 "%s already exist.","%s già  presente."
 "%s already exists.","%s già  presenti."
 "-- Please Select --","-- Selezionare --"
+"<strong style=""color:red"">Important!</strong> Enabling this option means
+                            that your custom templates used in checkout process contain form_key output.
+                            Otherwise checkout may not work.","<strong style=""color:red"">Importante!</strong> Se si attiva questa opzione, i modelli personalizzati utilizzati nel processo di ordinazione includeranno
+l'output di form_key. In caso contrario, la procedura di pagamento potrebbe non funzionare."
 "<strong style=""color:red"">Warning!</strong> When using CDN, in some cases JavaScript may not run properly if CDN is not in your subdomain","<strong style=""color:red"">Attenzione!</strong> Quando si usa il CDN, in alcuni casi JavaScript potrebbe non funzionare correttamente, se il CDN non è nel tuo sottodominio"
 "<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Attenzione!</strong> Quando si utilizza il codice del negozio negli URL, in alcuni casi il sistema non funziona correttamente se URL senza il codice negozio sono specificati nei servizi di terze parti (es. PayPal etc.)."
 "A category object is required for determining the product request path.","E richiesta la categoria dell\'oggetto per determinare il percorso del prodotto richiesto."
@@ -48,7 +52,7 @@
 "Before modifying the store view code please make sure that it is not used in index.php.","Prima di modificare il codice vista negozio assicurarsi che non si utilizzato in index.php."
 "Before modifying the website code please make sure that it is not used in index.php.","Prima di modificare il codice del sito web assicurati che non sia utilizzato in index.php."
 "Block with name ""%s"" already exists","Un blocco con il nome ""%s"" esiste già"
-"Browser Capabilities Detection","Funzionalità  di rilevamento del Browser"
+"Browser Capabilities Detection","Funzionalità di rilevamento del Browser"
 "CSRF protection","Protezione CSRF","en_US_1.9.2.0"
 "CSS Settings","Impostazioni CSS"
 "Cache Storage Management","Gestione archiviazione Cache"
