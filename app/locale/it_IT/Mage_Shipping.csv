@@ -22,7 +22,7 @@
 "Export","Esporta"
 "File has not been imported. See the following list of errors: %s","Il file non è stato importato. Vedi la seguente lista di errori: %s"
 "Fixed","Fissato"
-"Flat Rate",Forfettario
+"Flat Rate","Forfettario"
 "Free Shipping","Spedizione gratuita"
 "Google Sitemap Section","Sezione mappa del sito Google"
 "Handling Fee","Costi di imballaggio"
@@ -65,10 +65,10 @@
 "Shipping Settings Section","Sezione impostazioni spedizione"
 "Show Method if Not Applicable","Visualizza metodo se non applicabile"
 "Signed by:","Firmato da:"
-"Sort Order",Ordine
+"Sort Order","Ordine"
 "Status:","Stato:"
 "Store Pickup","Ritiro in negozio"
-"Street Address",Indirizzo
+"Street Address","Indirizzo"
 "Street Address Line 2","Indirizzo riga 2"
 "Table Rates","Tabella tariffe"
 "The shipping module is not available for selected delivery country.","I moduli di spedizione non sono disponibili per il paese di consegna selezionato."
@@ -88,6 +88,6 @@
 "Weight (and above)","Peso (e superiore)"
 "Weight vs. Destination","Peso vs. destinazione"
 "Weight:","Peso:"
-"ZIP/Postal Code",CAP
-"contact us",Contattaci
+"ZIP/Postal Code","CAP"
+"contact us","Contattaci"
 "email us at ","Inviaci una mail a"
