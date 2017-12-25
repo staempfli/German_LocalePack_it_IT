@@ -16,14 +16,13 @@
 "Advanced","Avanzate"
 "After selecting a new media storage location, press the Synchronize button
                                 to transfer all media to that location. Media will not be available in the new
-                                location until the synchronization process is complete.","Dopo aver selezionato una nuova poiszione per il media storage, premi il pulsante Sincronizza
-                                per trasferire tutti i media nella nuova posizione. Essi non saranno disponibili nella nuova
-                                Posizione finchè il processo di sincronizzazione non sarà  completato."
+                                location until the synchronization process is complete.","Dopo aver selezionato una nuova poiszione per il media storage, premi il pulsante Sincronizza per trasferire tutti i media nella nuova posizione. Essi non saranno disponibili nella nuova Posizione finchè il processo di sincronizzazione non sarà completato."
 "Allow Countries","Paesi consentiti"
 "Allow Magento Backend to run in frame","Permetti al Backend di Magento di aprirsi in frame"
 "Allow Magento Frontend to run in frame","Permetti al Frontend di Magento di aprirsi in frame"
 "Allow Symlinks","Permetti Symlinks"
 "Allowed IPs (comma separated)","IP permessi (separati da virgola)"
+"Allowed file types: ICO, PNG, GIF, JPEG, APNG, SVG. Not all browsers support all these formats!","Tipi di file consentiti: ICO, PNG, GIF, JPEG, APNG, SVG. Non tutti i browser supportano tutti questi formati!"
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Tipi di file consentiti: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Non tutti i browser supportano tutti questi formati!"
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG. Not all browsers support all these formats!","Tipi di file consentiti: ICO, PNG, GIF, JPG, JPEG, APNG. Non tutti i browser supportano tutti questi formati!"
 "Allowed file types: jpeg, gif, png.","Tipi di file consentiti: jpeg, gif, png."
@@ -124,8 +123,8 @@
 "Edit Website","Modifica sito web"
 "Email - Footer","Email - Footer"
 "Email - Header","Email - Header"
-"Email Footer Template","Template Footer Email"
-"Email Header Template","Template Header Email"
+"Email Footer Template","Email - Modello di piè di pagina"
+"Email Header Template","Email - Modello di intestazione"
 "Empty identifier field name","Nome Indentificativo campo vuoto"
 "Empty main table name","Nome tabella principale vuoto"
 "Enable Charts","Abilita grafici"
@@ -163,6 +162,7 @@
 "Host","Host"
 "How many links to display at once.","Numero link visualizzabili per volta."
 "ID Path for Specified Store","ID percorso per il negozio specificato"
+"If present, this will be included in all Transactional Emails","Se presente, verrà incluso in tutte le email transazionali."
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Se la posizione corrente del frame non comprende il massimo delle pagine, rendere il link della posizione corrente maggiore/minore di questo valore."
 "Incorrect credit card expiration date.","Data scadenza carta di credito non corretta."
 "Input type ""%value%"" not found in the input types list.","Tipo di input ""%value%"" non trovato nella lista dei tipi di input."

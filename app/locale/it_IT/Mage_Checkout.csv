@@ -1,11 +1,11 @@
-"<strong style=""color:red"">Important!</strong> Enabling this option means
-                            that your custom templates used in checkout process contain form_key output.
-                            Otherwise checkout may not work.","<strong style=""color:red"">Importante!</strong> Se si attiva questa opzione, i modelli personalizzati utilizzati nel processo di ordinazione includeranno l'output di form_key. In caso contrario, la procedura di pagamento potrebbe non funzionare."
 "%s was added to your shopping cart.","%s è stato aggiunto al suo carrello."
 "%s was updated in your shopping cart.","%s è stato aggiornato nel suo carrello."
 "(Excl. Tax)","(Escl. Tasse)"
 "(Incl. Tax)","(Incl. Tasse)"
 "* Required Fields","* Campi obbligatori"
+"<strong style=""color:red"">Important!</strong> Enabling this option means
+                            that your custom templates used in checkout process contain form_key output.
+                            Otherwise checkout may not work.","<strong style=""color:red"">Importante!</strong> Se si attiva questa opzione, i modelli personalizzati utilizzati nel processo di ordinazione includeranno l'output di form_key. In caso contrario, la procedura di pagamento potrebbe non funzionare."
 "Add New Address","Aggiungi nuovo indirizzo"
 "Add New Condition","Aggiungi nuova condizione"
 "Add coupon code for shopping cart","Aggiungi codice coupon per il carrello."
@@ -71,7 +71,6 @@
 "Checkout with Multiple Addresses","Checkout con indirizzi multipli"
 "City","Città"
 "Clear Shopping Cart","Svuota il carrello"
-"Click <a href=""%s"" onclick=""this.target='_blank'"">here to print</a> a copy of your order confirmation.","Clicca <a href=""%s"" onclick=""this.target=\'_blank\'"">qui per stampare</a> una copia della conferma d'ordine."
 "Click <a href=""%s"" onclick=""this.target=\'_blank\'"">here to print</a> a copy of your order confirmation.","Clicca <a href=""%s"" onclick=""this.target=\'_blank\'"">qui per stampare</a> una copia della conferma d'ordine."
 "Click <a href=""%s"">here</a> to continue shopping.","Clicca <a href=""%s"">qui</a> per continuare l'acquisto."
 "Close","Chiuso"
@@ -206,7 +205,6 @@
 "Order #","Ordine #"
 "Order Review","Rivedi ordine"
 "Order Success","Ordine riuscito"
-"Order place error","Errore inserimento ordine."
 "Order place error.","Errore inserimento ordine."
 "Other Items in Your Order","Altri articoli nel tuo ordine"
 "Overview Items After","Panoramica oggetti seguenti"
