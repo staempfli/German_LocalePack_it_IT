@@ -1,4 +1,7 @@
 # Italienisches Sprachpaket für Magento (CE)
+
+[![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](http://www.repostatus.org/badges/latest/abandoned.svg)](http://www.repostatus.org/#abandoned)
+
 (Magento Community Modules - Italian (Italy) Language Pack)<br />
 (Moduli di Magento Community - Pacchetto di lingua italiana)
 
